@@ -1,0 +1,24 @@
+{
+  "name": "codementor-nodejs-todolist-api",
+  "version": "1.0.0",
+  "description": "RESTful NodeJS API for a simple to-do-list app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amos-kibet/Codementor-nodejs-restful-todolist-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28"
+  },
+  "start": "nodemon server.js"
+}
